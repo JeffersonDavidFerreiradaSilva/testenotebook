@@ -1,7 +1,9 @@
 import pymysql.cursors
 
 class alunoModel():
+
     def __init__(self):
+        
         self.conexao = pymysql.connect(
             host = "localhost",
             user = "root",
