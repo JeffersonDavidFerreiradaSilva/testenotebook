@@ -7,4 +7,5 @@ class cadastro:
         return nome, idade, peso
     @staticmethod
     def mostrar_menssagem(menssagem):
-        print(menssagem)        
+        print(menssagem)   
+        print("---"*10)     
